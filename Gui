@@ -1,5 +1,5 @@
 game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {
-	Text = "Made by H4lfpace",
+	Text = "Script successfully loaded",
 	Color = Color3.new(0, 0, 1)
 })
 
