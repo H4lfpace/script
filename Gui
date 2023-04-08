@@ -1526,7 +1526,7 @@ local button = game.Players.LocalPlayer.PlayerGui.ScreenGui.Button
 local isOn = false
 
 -- Define a function to toggle the button state
-local function toggleButton()
+local function togggleButton()
 	if isOn then
 		button.Text = "Off"
 		button.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Red
@@ -1536,7 +1536,7 @@ local function toggleButton()
 	end
 	isOn = not isOn
 end
-button.MouseButton1Click:Connect(toggleButton)
+button.MouseButton1Click:Connect(togggleButton)
 --AimbotEnd--
 
 
