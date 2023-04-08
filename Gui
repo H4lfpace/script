@@ -1,1544 +1,217 @@
-game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {
-	Text = "Made by H4lfpace",
-	Color = Color3.new(0, 0, 1)
-})
-
-local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local Frame1 = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local Frame_2 = Instance.new("Frame")
-local UICorner_3 = Instance.new("UICorner")
-local UIListLayout = Instance.new("UIListLayout")
-local Airdrop = Instance.new("Frame")
-local UICorner_4 = Instance.new("UICorner")
-local AirdropOnOff = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
-local AimBot = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
-local AimbotOnOff = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local TextLabel_3 = Instance.new("TextLabel")
-local UICorner_8 = Instance.new("UICorner")
-local TextLabel_4 = Instance.new("TextLabel")
-local UICorner_9 = Instance.new("UICorner")
-local AimbotKey = Instance.new("TextBox")
-local UICorner_10 = Instance.new("UICorner")
-local AddPlatform = Instance.new("Frame")
-local UICorner_11 = Instance.new("UICorner")
-local AddPlatformOnOff = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
-local TpSafeplace = Instance.new("Frame")
-local UICorner_13 = Instance.new("UICorner")
-local TextLabel_6 = Instance.new("TextLabel")
-local UICorner_14 = Instance.new("UICorner")
-local TpSafespaceOnOff = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local TpSafespaceKey = Instance.new("TextBox")
-local UICorner_16 = Instance.new("UICorner")
-local TextLabel_7 = Instance.new("TextLabel")
-local UICorner_17 = Instance.new("UICorner")
-local Esp = Instance.new("Frame")
-local UICorner_18 = Instance.new("UICorner")
-local EspOnOff = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local TextLabel_8 = Instance.new("TextLabel")
-local Frame3 = Instance.new("Frame")
-local UICorner_20 = Instance.new("UICorner")
-local TextLabel_9 = Instance.new("TextLabel")
-local Frame_3 = Instance.new("Frame")
-local UICorner_21 = Instance.new("UICorner")
-local UIListLayout_2 = Instance.new("UIListLayout")
-local WalkJump = Instance.new("Frame")
-local UICorner_22 = Instance.new("UICorner")
-local TextLabel_10 = Instance.new("TextLabel")
-local UICorner_23 = Instance.new("UICorner")
-local WalkspeedValue = Instance.new("TextLabel")
-local UICorner_24 = Instance.new("UICorner")
-local WalkspeedOnOff = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
-local WalkspeedAdd = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local WalkspeedTake = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local Fly = Instance.new("Frame")
-local UICorner_28 = Instance.new("UICorner")
-local TextLabel_11 = Instance.new("TextLabel")
-local UICorner_29 = Instance.new("UICorner")
-local FlyValue = Instance.new("TextLabel")
-local UICorner_30 = Instance.new("UICorner")
-local FlyOnOff = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
-local FlyAdd = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
-local FlyTake = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
-local Tptool = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
-local Frame2 = Instance.new("Frame")
-local UICorner_35 = Instance.new("UICorner")
-local TextLabel_12 = Instance.new("TextLabel")
-local Frame_4 = Instance.new("Frame")
-local UICorner_36 = Instance.new("UICorner")
-local UIListLayout_3 = Instance.new("UIListLayout")
-local Castle = Instance.new("TextButton")
-local UICorner_37 = Instance.new("UICorner")
-local Cubes = Instance.new("TextButton")
-local UICorner_38 = Instance.new("UICorner")
-local Tower1 = Instance.new("TextButton")
-local UICorner_39 = Instance.new("UICorner")
-local Tower2 = Instance.new("TextButton")
-local UICorner_40 = Instance.new("UICorner")
-local Toilets = Instance.new("TextButton")
-local UICorner_41 = Instance.new("UICorner")
-local Sign = Instance.new("TextButton")
-local UICorner_42 = Instance.new("UICorner")
-local Lealderboards = Instance.new("TextButton")
-local UICorner_43 = Instance.new("UICorner")
-local Hill = Instance.new("TextButton")
-local UICorner_44 = Instance.new("UICorner")
-local Frame4 = Instance.new("Frame")
-local UICorner_45 = Instance.new("UICorner")
-local TextLabel_13 = Instance.new("TextLabel")
-local Frame_5 = Instance.new("Frame")
-local UICorner_46 = Instance.new("UICorner")
-local UIListLayout_4 = Instance.new("UIListLayout")
-local Credits = Instance.new("Frame")
-local UICorner_47 = Instance.new("UICorner")
-local TextLabel_14 = Instance.new("TextLabel")
-local UICorner_48 = Instance.new("UICorner")
-local TextLabel_15 = Instance.new("TextLabel")
-local UICorner_49 = Instance.new("UICorner")
-local Close = Instance.new("TextButton")
-local UICorner_50 = Instance.new("UICorner")
-local HideGuiKey = Instance.new("TextBox")
-local UICorner_51 = Instance.new("UICorner")
-local TextLabel_16 = Instance.new("TextLabel")
-local UICorner_52 = Instance.new("UICorner")
-local Buttons = Instance.new("Frame")
-local UICorner_53 = Instance.new("UICorner")
-local UIListLayout_5 = Instance.new("UIListLayout")
-local Button1 = Instance.new("TextButton")
-local UICorner_54 = Instance.new("UICorner")
-local Button2 = Instance.new("TextButton")
-local UICorner_55 = Instance.new("UICorner")
-local Button3 = Instance.new("TextButton")
-local UICorner_56 = Instance.new("UICorner")
-local Button4 = Instance.new("TextButton")
-local UICorner_57 = Instance.new("UICorner")
-
---Properties:
-
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-ScreenGui.ResetOnSpawn = false
-
-Frame.Parent = ScreenGui
-Frame.Active = true
-Frame.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Frame.Position = UDim2.new(0.321372986, 0, 0.251358747, 0)
-Frame.Size = UDim2.new(0.356642663, 0, 0.493885905, 0)
-Frame.ZIndex = 0
-Frame.Active = true
-Frame.Draggable = true
-
-UICorner.CornerRadius = UDim.new(0, 9)
-UICorner.Parent = Frame
-
-Frame1.Name = "Frame1"
-Frame1.Parent = Frame
-Frame1.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Frame1.Position = UDim2.new(0.361247063, 0, 0.0342489518, 0)
-Frame1.Size = UDim2.new(0.613628209, 0, 0.928746641, 0)
-Frame1.ZIndex = 2
-
-UICorner_2.CornerRadius = UDim.new(0, 9)
-UICorner_2.Parent = Frame1
-
-TextLabel.Parent = Frame1
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0.138533384, 0, 0.00867553428, 0)
-TextLabel.Size = UDim2.new(0.714999974, 0, 0.0949649215, 0)
-TextLabel.ZIndex = 2
-TextLabel.Font = Enum.Font.SourceSansBold
-TextLabel.Text = "Main"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-Frame_2.Parent = Frame1
-Frame_2.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
-Frame_2.BackgroundTransparency = 1.000
-Frame_2.Position = UDim2.new(0.083849147, 0, 0.115673795, 0)
-Frame_2.Size = UDim2.new(0.828014255, 0, 0.838056684, 0)
-Frame_2.ZIndex = 2
-
-UICorner_3.CornerRadius = UDim.new(0, 9)
-UICorner_3.Parent = Frame_2
-
-UIListLayout.Parent = Frame_2
-UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout.Padding = UDim.new(0.0399999991, 0)
-
-Airdrop.Name = "Airdrop"
-Airdrop.Parent = Frame_2
-Airdrop.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Airdrop.Position = UDim2.new(0, 0, 5.26528225e-08, 0)
-Airdrop.Size = UDim2.new(1.00958121, 0, 0.10142386, 0)
-Airdrop.ZIndex = 2
-
-UICorner_4.CornerRadius = UDim.new(0, 9)
-UICorner_4.Parent = Airdrop
-
-AirdropOnOff.Name = "AirdropOn/Off"
-AirdropOnOff.Parent = Airdrop
-AirdropOnOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-AirdropOnOff.Position = UDim2.new(0.725698888, 0, 0.166440338, 0)
-AirdropOnOff.Size = UDim2.new(0.23863481, 0, 0.673436701, 0)
-AirdropOnOff.ZIndex = 2
-AirdropOnOff.Font = Enum.Font.SourceSansBold
-AirdropOnOff.Text = "Off"
-AirdropOnOff.TextColor3 = Color3.fromRGB(255, 255, 255)
-AirdropOnOff.TextScaled = true
-AirdropOnOff.TextSize = 14.000
-AirdropOnOff.TextWrapped = true
-
-UICorner_5.CornerRadius = UDim.new(0, 9)
-UICorner_5.Parent = AirdropOnOff
-
-TextLabel_2.Parent = Airdrop
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.0336004198, 0, 0.153268293, 0)
-TextLabel_2.Size = UDim2.new(0.670582354, 0, 0.669506133, 0)
-TextLabel_2.ZIndex = 2
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Airdrop"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-AimBot.Name = "AimBot"
-AimBot.Parent = Frame_2
-AimBot.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-AimBot.Position = UDim2.new(0, 0, 0.135550275, 0)
-AimBot.Size = UDim2.new(1.00958121, 0, 0.260782152, 0)
-AimBot.ZIndex = 2
-
-UICorner_6.CornerRadius = UDim.new(0, 9)
-UICorner_6.Parent = AimBot
-
-AimbotOnOff.Name = "AimbotOn/Off"
-AimbotOnOff.Parent = AimBot
-AimbotOnOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-AimbotOnOff.Position = UDim2.new(0.716976762, 0, 0.140006334, 0)
-AimbotOnOff.Size = UDim2.new(0.23863481, 0, 0.274830103, 0)
-AimbotOnOff.ZIndex = 2
-AimbotOnOff.Font = Enum.Font.SourceSansBold
-AimbotOnOff.Text = "Off"
-AimbotOnOff.TextColor3 = Color3.fromRGB(255, 255, 255)
-AimbotOnOff.TextScaled = true
-AimbotOnOff.TextSize = 14.000
-AimbotOnOff.TextWrapped = true
-
-UICorner_7.CornerRadius = UDim.new(0, 9)
-UICorner_7.Parent = AimbotOnOff
-
-TextLabel_3.Parent = AimBot
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-TextLabel_3.Position = UDim2.new(0.0248783063, 0, 0.134631053, 0)
-TextLabel_3.Size = UDim2.new(0.670582354, 0, 0.273226023, 0)
-TextLabel_3.ZIndex = 2
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Aimbot"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
-
-UICorner_8.CornerRadius = UDim.new(0, 9)
-UICorner_8.Parent = TextLabel_3
-
-TextLabel_4.Parent = AimBot
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_4.Position = UDim2.new(0.0248783063, 0, 0.574900985, 0)
-TextLabel_4.Size = UDim2.new(0.670582354, 0, 0.273226023, 0)
-TextLabel_4.ZIndex = 2
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "Hold"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
-
-UICorner_9.CornerRadius = UDim.new(0, 9)
-UICorner_9.Parent = TextLabel_4
-
-AimbotKey.Name = "AimbotKey"
-AimbotKey.Parent = AimBot
-AimbotKey.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-AimbotKey.Position = UDim2.new(0.715213299, 0, 0.568389356, 0)
-AimbotKey.Size = UDim2.new(0.238999993, 0, 0.275000006, 0)
-AimbotKey.ZIndex = 2
-AimbotKey.Font = Enum.Font.ArialBold
-AimbotKey.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-AimbotKey.Text = "Insert Key"
-AimbotKey.TextColor3 = Color3.fromRGB(255, 255, 255)
-AimbotKey.TextScaled = true
-AimbotKey.TextSize = 14.000
-AimbotKey.TextWrapped = true
-
-UICorner_10.CornerRadius = UDim.new(0, 9)
-UICorner_10.Parent = AimbotKey
-
-AddPlatform.Name = "AddPlatform"
-AddPlatform.Parent = Frame_2
-AddPlatform.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-AddPlatform.Position = UDim2.new(0, 0, 0.566009045, 0)
-AddPlatform.Size = UDim2.new(1.00958121, 0, 0.10142386, 0)
-AddPlatform.ZIndex = 2
-
-UICorner_11.CornerRadius = UDim.new(0, 9)
-UICorner_11.Parent = AddPlatform
-
-AddPlatformOnOff.Name = "AddPlatformOn/Off"
-AddPlatformOnOff.Parent = AddPlatform
-AddPlatformOnOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-AddPlatformOnOff.Position = UDim2.new(0.725698888, 0, 0.162815735, 0)
-AddPlatformOnOff.Size = UDim2.new(0.23863481, 0, 0.673436701, 0)
-AddPlatformOnOff.ZIndex = 2
-AddPlatformOnOff.Font = Enum.Font.SourceSansBold
-AddPlatformOnOff.Text = "Off"
-AddPlatformOnOff.TextColor3 = Color3.fromRGB(255, 255, 255)
-AddPlatformOnOff.TextScaled = true
-AddPlatformOnOff.TextSize = 14.000
-AddPlatformOnOff.TextWrapped = true
-
-UICorner_12.CornerRadius = UDim.new(0, 9)
-UICorner_12.Parent = AddPlatformOnOff
-
-TextLabel_5.Parent = AddPlatform
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(0.0336004198, 0, 0.149644181, 0)
-TextLabel_5.Size = UDim2.new(0.670582354, 0, 0.686608553, 0)
-TextLabel_5.ZIndex = 2
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "Add Platform"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextScaled = true
-TextLabel_5.TextSize = 14.000
-TextLabel_5.TextWrapped = true
-
-TpSafeplace.Name = "TpSafeplace"
-TpSafeplace.Parent = Frame_2
-TpSafeplace.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-TpSafeplace.Position = UDim2.new(0, 0, 0.701559305, 0)
-TpSafeplace.Size = UDim2.new(1.00958121, 0, 0.260782152, 0)
-TpSafeplace.ZIndex = 2
-
-UICorner_13.CornerRadius = UDim.new(0, 9)
-UICorner_13.Parent = TpSafeplace
-
-TextLabel_6.Parent = TpSafeplace
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-TextLabel_6.Position = UDim2.new(0.0248783063, 0, 0.130690098, 0)
-TextLabel_6.Size = UDim2.new(0.670582354, 0, 0.273225993, 0)
-TextLabel_6.ZIndex = 2
-TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = "Tp Safeplace"
-TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.TextScaled = true
-TextLabel_6.TextSize = 14.000
-TextLabel_6.TextWrapped = true
-
-UICorner_14.CornerRadius = UDim.new(0, 9)
-UICorner_14.Parent = TextLabel_6
-
-TpSafespaceOnOff.Name = "TpSafespaceOn/Off"
-TpSafespaceOnOff.Parent = TpSafeplace
-TpSafespaceOnOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-TpSafespaceOnOff.Position = UDim2.new(0.716976762, 0, 0.136065334, 0)
-TpSafespaceOnOff.Size = UDim2.new(0.23863481, 0, 0.274830043, 0)
-TpSafespaceOnOff.ZIndex = 2
-TpSafespaceOnOff.Font = Enum.Font.SourceSansBold
-TpSafespaceOnOff.Text = "Off"
-TpSafespaceOnOff.TextColor3 = Color3.fromRGB(255, 255, 255)
-TpSafespaceOnOff.TextScaled = true
-TpSafespaceOnOff.TextSize = 14.000
-TpSafespaceOnOff.TextWrapped = true
-
-UICorner_15.CornerRadius = UDim.new(0, 9)
-UICorner_15.Parent = TpSafespaceOnOff
-
-TpSafespaceKey.Name = "TpSafespaceKey"
-TpSafespaceKey.Parent = TpSafeplace
-TpSafespaceKey.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-TpSafespaceKey.Position = UDim2.new(0.715213299, 0, 0.564448357, 0)
-TpSafespaceKey.Size = UDim2.new(0.238999993, 0, 0.275000006, 0)
-TpSafespaceKey.ZIndex = 2
-TpSafespaceKey.Font = Enum.Font.ArialBold
-TpSafespaceKey.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-TpSafespaceKey.Text = "Insert Key"
-TpSafespaceKey.TextColor3 = Color3.fromRGB(255, 255, 255)
-TpSafespaceKey.TextScaled = true
-TpSafespaceKey.TextSize = 14.000
-TpSafespaceKey.TextWrapped = true
-
-UICorner_16.CornerRadius = UDim.new(0, 9)
-UICorner_16.Parent = TpSafespaceKey
-
-TextLabel_7.Parent = TpSafeplace
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_7.Position = UDim2.new(0.0248783063, 0, 0.570959806, 0)
-TextLabel_7.Size = UDim2.new(0.670582354, 0, 0.273225993, 0)
-TextLabel_7.ZIndex = 2
-TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = "Key"
-TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.TextScaled = true
-TextLabel_7.TextSize = 14.000
-TextLabel_7.TextWrapped = true
-
-UICorner_17.CornerRadius = UDim.new(0, 9)
-UICorner_17.Parent = TextLabel_7
-
-Esp.Name = "Esp"
-Esp.Parent = Frame_2
-Esp.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Esp.Position = UDim2.new(0, 0, 0.430458784, 0)
-Esp.Size = UDim2.new(1.00958121, 0, 0.10142386, 0)
-Esp.ZIndex = 2
-
-UICorner_18.CornerRadius = UDim.new(0, 9)
-UICorner_18.Parent = Esp
-
-EspOnOff.Name = "EspOn/Off"
-EspOnOff.Parent = Esp
-EspOnOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-EspOnOff.Position = UDim2.new(0.725698888, 0, 0.152682185, 0)
-EspOnOff.Size = UDim2.new(0.23863481, 0, 0.673436701, 0)
-EspOnOff.ZIndex = 2
-EspOnOff.Font = Enum.Font.SourceSansBold
-EspOnOff.Text = "Off"
-EspOnOff.TextColor3 = Color3.fromRGB(255, 255, 255)
-EspOnOff.TextScaled = true
-EspOnOff.TextSize = 14.000
-EspOnOff.TextWrapped = true
-
-UICorner_19.CornerRadius = UDim.new(0, 9)
-UICorner_19.Parent = EspOnOff
-
-TextLabel_8.Parent = Esp
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.BackgroundTransparency = 1.000
-TextLabel_8.Position = UDim2.new(0.0336004198, 0, 0.139510661, 0)
-TextLabel_8.Size = UDim2.new(0.670582354, 0, 0.686608553, 0)
-TextLabel_8.ZIndex = 2
-TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = "Esp"
-TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextScaled = true
-TextLabel_8.TextSize = 14.000
-TextLabel_8.TextWrapped = true
-
-Frame3.Name = "Frame3"
-Frame3.Parent = Frame
-Frame3.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Frame3.Position = UDim2.new(0.361247063, 0, 0.0342489518, 0)
-Frame3.Size = UDim2.new(0.613628209, 0, 0.928746641, 0)
-Frame3.Visible = false
-Frame3.ZIndex = 2
-
-UICorner_20.CornerRadius = UDim.new(0, 9)
-UICorner_20.Parent = Frame3
-
-TextLabel_9.Parent = Frame3
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.Position = UDim2.new(0.138533384, 0, 0.00867553428, 0)
-TextLabel_9.Size = UDim2.new(0.714999974, 0, 0.0949649215, 0)
-TextLabel_9.ZIndex = 2
-TextLabel_9.Font = Enum.Font.SourceSansBold
-TextLabel_9.Text = "Character"
-TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextScaled = true
-TextLabel_9.TextSize = 14.000
-TextLabel_9.TextWrapped = true
-
-Frame_3.Parent = Frame3
-Frame_3.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
-Frame_3.BackgroundTransparency = 1.000
-Frame_3.Position = UDim2.new(0.083849147, 0, 0.115673795, 0)
-Frame_3.Size = UDim2.new(0.828014255, 0, 0.838056684, 0)
-Frame_3.ZIndex = 2
-
-UICorner_21.CornerRadius = UDim.new(0, 9)
-UICorner_21.Parent = Frame_3
-
-UIListLayout_2.Parent = Frame_3
-UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_2.Padding = UDim.new(0.0399999991, 0)
-
-WalkJump.Name = "Walk/Jump"
-WalkJump.Parent = Frame_3
-WalkJump.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-WalkJump.Position = UDim2.new(0, 0, 0.135550275, 0)
-WalkJump.Size = UDim2.new(1.00958121, 0, 0.260782152, 0)
-WalkJump.ZIndex = 2
-
-UICorner_22.CornerRadius = UDim.new(0, 9)
-UICorner_22.Parent = WalkJump
-
-TextLabel_10.Parent = WalkJump
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-TextLabel_10.Position = UDim2.new(0.0248783063, 0, 0.134631053, 0)
-TextLabel_10.Size = UDim2.new(0.670582354, 0, 0.273226023, 0)
-TextLabel_10.ZIndex = 2
-TextLabel_10.Font = Enum.Font.SourceSans
-TextLabel_10.Text = "Speed"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextScaled = true
-TextLabel_10.TextSize = 14.000
-TextLabel_10.TextWrapped = true
-
-UICorner_23.CornerRadius = UDim.new(0, 9)
-UICorner_23.Parent = TextLabel_10
-
-WalkspeedValue.Name = "WalkspeedValue"
-WalkspeedValue.Parent = WalkJump
-WalkspeedValue.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-WalkspeedValue.BorderColor3 = Color3.fromRGB(27, 42, 53)
-WalkspeedValue.Position = UDim2.new(0.296759933, 0, 0.574900925, 0)
-WalkspeedValue.Size = UDim2.new(0.389786452, 0, 0.273226023, 0)
-WalkspeedValue.ZIndex = 2
-WalkspeedValue.Font = Enum.Font.SourceSans
-WalkspeedValue.Text = "5"
-WalkspeedValue.TextColor3 = Color3.fromRGB(255, 255, 255)
-WalkspeedValue.TextScaled = true
-WalkspeedValue.TextSize = 14.000
-WalkspeedValue.TextWrapped = true
-
-UICorner_24.CornerRadius = UDim.new(0, 9)
-UICorner_24.Parent = WalkspeedValue
-
-WalkspeedOnOff.Name = "WalkspeedOn/Off"
-WalkspeedOnOff.Parent = WalkJump
-WalkspeedOnOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-WalkspeedOnOff.Position = UDim2.new(0.714999974, 0, 0.131999999, 0)
-WalkspeedOnOff.Size = UDim2.new(0.238999993, 0, 0.275000006, 0)
-WalkspeedOnOff.ZIndex = 2
-WalkspeedOnOff.Font = Enum.Font.SourceSansBold
-WalkspeedOnOff.Text = "Off"
-WalkspeedOnOff.TextColor3 = Color3.fromRGB(255, 255, 255)
-WalkspeedOnOff.TextScaled = true
-WalkspeedOnOff.TextSize = 14.000
-WalkspeedOnOff.TextWrapped = true
-
-UICorner_25.CornerRadius = UDim.new(0, 9)
-UICorner_25.Parent = WalkspeedOnOff
-
-WalkspeedAdd.Name = "WalkspeedAdd"
-WalkspeedAdd.Parent = WalkJump
-WalkspeedAdd.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-WalkspeedAdd.Position = UDim2.new(0.714999974, 0, 0.568000019, 0)
-WalkspeedAdd.Size = UDim2.new(0.238999993, 0, 0.275000006, 0)
-WalkspeedAdd.ZIndex = 2
-WalkspeedAdd.Font = Enum.Font.SourceSansBold
-WalkspeedAdd.Text = "+1"
-WalkspeedAdd.TextColor3 = Color3.fromRGB(255, 255, 255)
-WalkspeedAdd.TextScaled = true
-WalkspeedAdd.TextSize = 14.000
-WalkspeedAdd.TextWrapped = true
-
-UICorner_26.CornerRadius = UDim.new(0, 9)
-UICorner_26.Parent = WalkspeedAdd
-
-WalkspeedTake.Name = "WalkspeedTake"
-WalkspeedTake.Parent = WalkJump
-WalkspeedTake.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-WalkspeedTake.Position = UDim2.new(0.0330670886, 0, 0.568000019, 0)
-WalkspeedTake.Size = UDim2.new(0.238999993, 0, 0.275000006, 0)
-WalkspeedTake.ZIndex = 2
-WalkspeedTake.Font = Enum.Font.SourceSansBold
-WalkspeedTake.Text = "-1"
-WalkspeedTake.TextColor3 = Color3.fromRGB(255, 255, 255)
-WalkspeedTake.TextScaled = true
-WalkspeedTake.TextSize = 14.000
-WalkspeedTake.TextWrapped = true
-
-UICorner_27.CornerRadius = UDim.new(0, 9)
-UICorner_27.Parent = WalkspeedTake
-
-Fly.Name = "Fly"
-Fly.Parent = Frame_3
-Fly.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Fly.Position = UDim2.new(0, 0, 0.135550275, 0)
-Fly.Size = UDim2.new(1.00958121, 0, 0.260782152, 0)
-Fly.Visible = false
-Fly.ZIndex = 2
-
-UICorner_28.CornerRadius = UDim.new(0, 9)
-UICorner_28.Parent = Fly
-
-TextLabel_11.Parent = Fly
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-TextLabel_11.Position = UDim2.new(0.0248783063, 0, 0.134631053, 0)
-TextLabel_11.Size = UDim2.new(0.670582354, 0, 0.273226023, 0)
-TextLabel_11.ZIndex = 2
-TextLabel_11.Font = Enum.Font.SourceSans
-TextLabel_11.Text = "Fly"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextScaled = true
-TextLabel_11.TextSize = 14.000
-TextLabel_11.TextWrapped = true
-
-UICorner_29.CornerRadius = UDim.new(0, 9)
-UICorner_29.Parent = TextLabel_11
-
-FlyValue.Name = "FlyValue"
-FlyValue.Parent = Fly
-FlyValue.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-FlyValue.BorderColor3 = Color3.fromRGB(27, 42, 53)
-FlyValue.Position = UDim2.new(0.296759933, 0, 0.574900925, 0)
-FlyValue.Size = UDim2.new(0.389786452, 0, 0.273226023, 0)
-FlyValue.ZIndex = 2
-FlyValue.Font = Enum.Font.SourceSans
-FlyValue.Text = "5"
-FlyValue.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlyValue.TextScaled = true
-FlyValue.TextSize = 14.000
-FlyValue.TextWrapped = true
-
-UICorner_30.CornerRadius = UDim.new(0, 9)
-UICorner_30.Parent = FlyValue
-
-FlyOnOff.Name = "FlyOn/Off"
-FlyOnOff.Parent = Fly
-FlyOnOff.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-FlyOnOff.Position = UDim2.new(0.714999974, 0, 0.131999999, 0)
-FlyOnOff.Size = UDim2.new(0.238999993, 0, 0.275000006, 0)
-FlyOnOff.ZIndex = 2
-FlyOnOff.Font = Enum.Font.SourceSansBold
-FlyOnOff.Text = "Off"
-FlyOnOff.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlyOnOff.TextScaled = true
-FlyOnOff.TextSize = 14.000
-FlyOnOff.TextWrapped = true
-
-UICorner_31.CornerRadius = UDim.new(0, 9)
-UICorner_31.Parent = FlyOnOff
-
-FlyAdd.Name = "FlyAdd"
-FlyAdd.Parent = Fly
-FlyAdd.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-FlyAdd.Position = UDim2.new(0.714999974, 0, 0.568000019, 0)
-FlyAdd.Size = UDim2.new(0.238999993, 0, 0.275000006, 0)
-FlyAdd.ZIndex = 2
-FlyAdd.Font = Enum.Font.SourceSansBold
-FlyAdd.Text = "+1"
-FlyAdd.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlyAdd.TextScaled = true
-FlyAdd.TextSize = 14.000
-FlyAdd.TextWrapped = true
-
-UICorner_32.CornerRadius = UDim.new(0, 9)
-UICorner_32.Parent = FlyAdd
-
-FlyTake.Name = "FlyTake"
-FlyTake.Parent = Fly
-FlyTake.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-FlyTake.Position = UDim2.new(0.0330670886, 0, 0.568000019, 0)
-FlyTake.Size = UDim2.new(0.238999993, 0, 0.275000006, 0)
-FlyTake.ZIndex = 2
-FlyTake.Font = Enum.Font.SourceSansBold
-FlyTake.Text = "-1"
-FlyTake.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlyTake.TextScaled = true
-FlyTake.TextSize = 14.000
-FlyTake.TextWrapped = true
-
-UICorner_33.CornerRadius = UDim.new(0, 9)
-UICorner_33.Parent = FlyTake
-
-Tptool.Name = "Tptool"
-Tptool.Parent = Frame_3
-Tptool.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Tptool.Position = UDim2.new(0, 0, 0.300782174, 0)
-Tptool.Size = UDim2.new(1.00958109, 0, 0.0735286921, 0)
-Tptool.ZIndex = 2
-Tptool.Font = Enum.Font.SourceSans
-Tptool.Text = "TP-Tool"
-Tptool.TextColor3 = Color3.fromRGB(255, 255, 255)
-Tptool.TextScaled = true
-Tptool.TextSize = 14.000
-Tptool.TextWrapped = true
-
-UICorner_34.CornerRadius = UDim.new(0, 9)
-UICorner_34.Parent = Tptool
-
-Frame2.Name = "Frame2"
-Frame2.Parent = Frame
-Frame2.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Frame2.Position = UDim2.new(0.361247063, 0, 0.0342489518, 0)
-Frame2.Size = UDim2.new(0.613628209, 0, 0.928746641, 0)
-Frame2.Visible = false
-Frame2.ZIndex = 2
-
-UICorner_35.CornerRadius = UDim.new(0, 9)
-UICorner_35.Parent = Frame2
-
-TextLabel_12.Parent = Frame2
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.Position = UDim2.new(0.138533384, 0, 0.00867553428, 0)
-TextLabel_12.Size = UDim2.new(0.714999974, 0, 0.0949649215, 0)
-TextLabel_12.ZIndex = 2
-TextLabel_12.Font = Enum.Font.SourceSansBold
-TextLabel_12.Text = "Teleports"
-TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.TextScaled = true
-TextLabel_12.TextSize = 14.000
-TextLabel_12.TextWrapped = true
-
-Frame_4.Parent = Frame2
-Frame_4.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
-Frame_4.BackgroundTransparency = 1.000
-Frame_4.Position = UDim2.new(0.083849147, 0, 0.115673795, 0)
-Frame_4.Size = UDim2.new(0.828014255, 0, 0.838056684, 0)
-Frame_4.ZIndex = 2
-
-UICorner_36.CornerRadius = UDim.new(0, 9)
-UICorner_36.Parent = Frame_4
-
-UIListLayout_3.Parent = Frame_4
-UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_3.Padding = UDim.new(0.0399999991, 0)
-
-Castle.Name = "Castle"
-Castle.Parent = Frame_4
-Castle.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Castle.Position = UDim2.new(1.34364043e-07, 0, 0.115931354, 0)
-Castle.Size = UDim2.new(0.999999881, 0, 0.0735286921, 0)
-Castle.ZIndex = 2
-Castle.Font = Enum.Font.SourceSans
-Castle.Text = "Castle"
-Castle.TextColor3 = Color3.fromRGB(255, 255, 255)
-Castle.TextScaled = true
-Castle.TextSize = 14.000
-Castle.TextWrapped = true
-
-UICorner_37.CornerRadius = UDim.new(0, 9)
-UICorner_37.Parent = Castle
-
-Cubes.Name = "Cubes"
-Cubes.Parent = Frame_4
-Cubes.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Cubes.Position = UDim2.new(1.34364043e-07, 0, 0.231862649, 0)
-Cubes.Size = UDim2.new(0.999999881, 0, 0.0735286921, 0)
-Cubes.ZIndex = 2
-Cubes.Font = Enum.Font.SourceSans
-Cubes.Text = "Cubes"
-Cubes.TextColor3 = Color3.fromRGB(255, 255, 255)
-Cubes.TextScaled = true
-Cubes.TextSize = 14.000
-Cubes.TextWrapped = true
-
-UICorner_38.CornerRadius = UDim.new(0, 9)
-UICorner_38.Parent = Cubes
-
-Tower1.Name = "Tower1"
-Tower1.Parent = Frame_4
-Tower1.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Tower1.Position = UDim2.new(1.34364043e-07, 0, 0.69460851, 0)
-Tower1.Size = UDim2.new(0.999999881, 0, 0.0735286921, 0)
-Tower1.ZIndex = 2
-Tower1.Font = Enum.Font.SourceSans
-Tower1.Text = "Tower1"
-Tower1.TextColor3 = Color3.fromRGB(255, 255, 255)
-Tower1.TextScaled = true
-Tower1.TextSize = 14.000
-Tower1.TextWrapped = true
-
-UICorner_39.CornerRadius = UDim.new(0, 9)
-UICorner_39.Parent = Tower1
-
-Tower2.Name = "Tower2"
-Tower2.Parent = Frame_4
-Tower2.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Tower2.Position = UDim2.new(1.34364043e-07, 0, 0.810539901, 0)
-Tower2.Size = UDim2.new(0.999999881, 0, 0.0735286921, 0)
-Tower2.ZIndex = 2
-Tower2.Font = Enum.Font.SourceSans
-Tower2.Text = "Tower2"
-Tower2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Tower2.TextScaled = true
-Tower2.TextSize = 14.000
-Tower2.TextWrapped = true
-
-UICorner_40.CornerRadius = UDim.new(0, 9)
-UICorner_40.Parent = Tower2
-
-Toilets.Name = "Toilets"
-Toilets.Parent = Frame_4
-Toilets.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Toilets.Position = UDim2.new(0.0616399087, 0, 0.952327549, 0)
-Toilets.Size = UDim2.new(0.999999881, 0, 0.072549209, 0)
-Toilets.ZIndex = 2
-Toilets.Font = Enum.Font.SourceSans
-Toilets.Text = "Toilets"
-Toilets.TextColor3 = Color3.fromRGB(255, 255, 255)
-Toilets.TextScaled = true
-Toilets.TextSize = 14.000
-Toilets.TextWrapped = true
-
-UICorner_41.CornerRadius = UDim.new(0, 9)
-UICorner_41.Parent = Toilets
-
-Sign.Name = "Sign"
-Sign.Parent = Frame_4
-Sign.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Sign.Position = UDim2.new(-0.00880554691, 0, 0.11175862, 0)
-Sign.Size = UDim2.new(0.999999881, 0, 0.0735286921, 0)
-Sign.ZIndex = 2
-Sign.Font = Enum.Font.SourceSans
-Sign.Text = "Sign"
-Sign.TextColor3 = Color3.fromRGB(255, 255, 255)
-Sign.TextScaled = true
-Sign.TextSize = 14.000
-Sign.TextWrapped = true
-
-UICorner_42.CornerRadius = UDim.new(0, 9)
-UICorner_42.Parent = Sign
-
-Lealderboards.Name = "Lealderboards"
-Lealderboards.Parent = Frame_4
-Lealderboards.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Lealderboards.Position = UDim2.new(1.34364043e-07, 0, 0.926471293, 0)
-Lealderboards.Size = UDim2.new(0.999999881, 0, 0.0735286921, 0)
-Lealderboards.ZIndex = 2
-Lealderboards.Font = Enum.Font.SourceSans
-Lealderboards.Text = "Lealderboards"
-Lealderboards.TextColor3 = Color3.fromRGB(255, 255, 255)
-Lealderboards.TextScaled = true
-Lealderboards.TextSize = 14.000
-Lealderboards.TextWrapped = true
-
-UICorner_43.CornerRadius = UDim.new(0, 9)
-UICorner_43.Parent = Lealderboards
-
-Hill.Name = "Hill"
-Hill.Parent = Frame_4
-Hill.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Hill.Position = UDim2.new(1.34364043e-07, 0, 0.347793996, 0)
-Hill.Size = UDim2.new(0.999999881, 0, 0.0735286921, 0)
-Hill.ZIndex = 2
-Hill.Font = Enum.Font.SourceSans
-Hill.Text = "Hill"
-Hill.TextColor3 = Color3.fromRGB(255, 255, 255)
-Hill.TextScaled = true
-Hill.TextSize = 14.000
-Hill.TextWrapped = true
-
-UICorner_44.CornerRadius = UDim.new(0, 9)
-UICorner_44.Parent = Hill
-
-Frame4.Name = "Frame4"
-Frame4.Parent = Frame
-Frame4.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Frame4.Position = UDim2.new(0.361247063, 0, 0.0342489518, 0)
-Frame4.Size = UDim2.new(0.613628209, 0, 0.928746641, 0)
-Frame4.Visible = false
-Frame4.ZIndex = 2
-
-UICorner_45.CornerRadius = UDim.new(0, 9)
-UICorner_45.Parent = Frame4
-
-TextLabel_13.Parent = Frame4
-TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.BackgroundTransparency = 1.000
-TextLabel_13.Position = UDim2.new(0.138533384, 0, 0.00867553428, 0)
-TextLabel_13.Size = UDim2.new(0.714999974, 0, 0.0949649215, 0)
-TextLabel_13.ZIndex = 2
-TextLabel_13.Font = Enum.Font.SourceSansBold
-TextLabel_13.Text = "Credits"
-TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.TextScaled = true
-TextLabel_13.TextSize = 14.000
-TextLabel_13.TextWrapped = true
-
-Frame_5.Parent = Frame4
-Frame_5.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
-Frame_5.BackgroundTransparency = 1.000
-Frame_5.Position = UDim2.new(0.083849147, 0, 0.115673795, 0)
-Frame_5.Size = UDim2.new(0.828014255, 0, 0.838056684, 0)
-Frame_5.ZIndex = 2
-
-UICorner_46.CornerRadius = UDim.new(0, 9)
-UICorner_46.Parent = Frame_5
-
-UIListLayout_4.Parent = Frame_5
-UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_4.Padding = UDim.new(0.0399999991, 0)
-
-Credits.Name = "Credits"
-Credits.Parent = Frame_5
-Credits.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
-Credits.Position = UDim2.new(0, 0, 0.135550275, 0)
-Credits.Size = UDim2.new(1.00958121, 0, 0.260782152, 0)
-Credits.ZIndex = 2
-
-UICorner_47.CornerRadius = UDim.new(0, 9)
-UICorner_47.Parent = Credits
-
-TextLabel_14.Parent = Credits
-TextLabel_14.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-TextLabel_14.Position = UDim2.new(0.024878405, 0, 0.134631112, 0)
-TextLabel_14.Size = UDim2.new(0.951085091, 0, 0.273226023, 0)
-TextLabel_14.ZIndex = 2
-TextLabel_14.Font = Enum.Font.SourceSans
-TextLabel_14.Text = "H4lfpace"
-TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.TextScaled = true
-TextLabel_14.TextSize = 14.000
-TextLabel_14.TextWrapped = true
-
-UICorner_48.CornerRadius = UDim.new(0, 9)
-UICorner_48.Parent = TextLabel_14
-
-TextLabel_15.Parent = Credits
-TextLabel_15.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_15.Position = UDim2.new(0.024878405, 0, 0.574900985, 0)
-TextLabel_15.Size = UDim2.new(0.951085091, 0, 0.273226023, 0)
-TextLabel_15.ZIndex = 2
-TextLabel_15.Font = Enum.Font.SourceSans
-TextLabel_15.Text = "PrimeX#5982"
-TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_15.TextScaled = true
-TextLabel_15.TextSize = 14.000
-TextLabel_15.TextWrapped = true
-
-UICorner_49.CornerRadius = UDim.new(0, 9)
-UICorner_49.Parent = TextLabel_15
-
-Close.Name = "Close"
-Close.Parent = Frame
-Close.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Close.Position = UDim2.new(0.0208029971, 0, 0.878771782, 0)
-Close.Size = UDim2.new(0.0893614218, 0, 0.081577003, 0)
-Close.Font = Enum.Font.SourceSans
-Close.Text = "Close"
-Close.TextColor3 = Color3.fromRGB(255, 255, 255)
-Close.TextScaled = true
-Close.TextSize = 14.000
-Close.TextWrapped = true
-
-UICorner_50.CornerRadius = UDim.new(0, 9)
-UICorner_50.Parent = Close
-
-HideGuiKey.Name = "HideGuiKey"
-HideGuiKey.Parent = Frame
-HideGuiKey.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-HideGuiKey.Position = UDim2.new(0.285604447, 0, 0.878771782, 0)
-HideGuiKey.Size = UDim2.new(0.0566555783, 0, 0.0827972591, 0)
-HideGuiKey.ZIndex = 2
-HideGuiKey.Font = Enum.Font.ArialBold
-HideGuiKey.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-HideGuiKey.Text = "V"
-HideGuiKey.TextColor3 = Color3.fromRGB(255, 255, 255)
-HideGuiKey.TextScaled = true
-HideGuiKey.TextSize = 14.000
-HideGuiKey.TextWrapped = true
-
-UICorner_51.CornerRadius = UDim.new(0, 9)
-UICorner_51.Parent = HideGuiKey
-
-TextLabel_16.Parent = Frame
-TextLabel_16.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-TextLabel_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_16.Position = UDim2.new(0.121958695, 0, 0.880732417, 0)
-TextLabel_16.Size = UDim2.new(0.158963308, 0, 0.0822631568, 0)
-TextLabel_16.ZIndex = 2
-TextLabel_16.Font = Enum.Font.SourceSans
-TextLabel_16.Text = "HideGui-Key"
-TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.TextScaled = true
-TextLabel_16.TextSize = 14.000
-TextLabel_16.TextWrapped = true
-
-UICorner_52.CornerRadius = UDim.new(0, 9)
-UICorner_52.Parent = TextLabel_16
-
-Buttons.Name = "Buttons"
-Buttons.Parent = Frame
-Buttons.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
-Buttons.BackgroundTransparency = 1.000
-Buttons.Position = UDim2.new(0.0218912978, 0, 0.0342489518, 0)
-Buttons.Size = UDim2.new(0.324247241, 0, 0.928746819, 0)
-Buttons.ZIndex = 2
-
-UICorner_53.CornerRadius = UDim.new(0, 9)
-UICorner_53.Parent = Buttons
-
-UIListLayout_5.Parent = Buttons
-UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_5.Padding = UDim.new(0, 8)
-
-Button1.Name = "Button1"
-Button1.Parent = Buttons
-Button1.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Button1.Size = UDim2.new(0.992556036, 0, 0.0924018547, 0)
-Button1.Font = Enum.Font.SourceSans
-Button1.Text = "Main"
-Button1.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button1.TextScaled = true
-Button1.TextSize = 14.000
-Button1.TextWrapped = true
-
-UICorner_54.CornerRadius = UDim.new(0, 9)
-UICorner_54.Parent = Button1
-
-Button2.Name = "Button2"
-Button2.Parent = Buttons
-Button2.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Button2.Position = UDim2.new(0, 0, 0.136410937, 0)
-Button2.Size = UDim2.new(0.992556036, 0, 0.0924018547, 0)
-Button2.Font = Enum.Font.SourceSans
-Button2.Text = "Teleports"
-Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button2.TextScaled = true
-Button2.TextSize = 14.000
-Button2.TextWrapped = true
-
-UICorner_55.CornerRadius = UDim.new(0, 9)
-UICorner_55.Parent = Button2
-
-Button3.Name = "Button3"
-Button3.Parent = Buttons
-Button3.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Button3.Position = UDim2.new(0, 0, 0.272821873, 0)
-Button3.Size = UDim2.new(0.992556036, 0, 0.0924018547, 0)
-Button3.Font = Enum.Font.SourceSans
-Button3.Text = "Character"
-Button3.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button3.TextScaled = true
-Button3.TextSize = 14.000
-Button3.TextWrapped = true
-
-UICorner_56.CornerRadius = UDim.new(0, 9)
-UICorner_56.Parent = Button3
-
-Button4.Name = "Button4"
-Button4.Parent = Buttons
-Button4.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Button4.Position = UDim2.new(0, 0, 0.409232706, 0)
-Button4.Size = UDim2.new(0.992556036, 0, 0.0856302455, 0)
-Button4.Font = Enum.Font.SourceSans
-Button4.Text = "Credits"
-Button4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button4.TextScaled = true
-Button4.TextSize = 14.000
-Button4.TextWrapped = true
-
-UICorner_57.CornerRadius = UDim.new(0, 9)
-UICorner_57.Parent = Button4
-
-
-
-
-
-
-
-
-
-local toggleButton = EspOnOff 
-
-
-
-local isOn = false
-
--- Function to handle button clicks
-local function onButtonClicked()
-	isOn = not isOn -- Toggle the button state
-
-	-- Change the background color of the button based on the state
-	if isOn then
-		toggleButton.Text = "On"
-		toggleButton.BackgroundColor3 = Color3.fromRGB(0, 255, 0) -- Green
-		-- TODO: Add code to do something when the button is turned on
-	else
-		toggleButton.Text = "Off"
-		toggleButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Red
-		-- TODO: Add code to do something when the button is turned off
-	end
-end
-
--- Connect the button click event to the function
-toggleButton.MouseButton1Click:Connect(onButtonClicked)
-
-
-
-
-
-
-
-
-
-Tptool.MouseButton1Click:Connect(function()
-	local player = game.Players.LocalPlayer
-	local mouse = player:GetMouse()
-	if not player.Backpack:FindFirstChild("Tp-Tool") and not player.Character:FindFirstChild("Equip to Click TP") then
-		local tool = Instance.new("Tool")
-		tool.RequiresHandle = false
-		tool.Name = "Tp-Tool"
-		tool.Activated:Connect(function()
-			local pos = mouse.Hit + Vector3.new(0, 2.5, 0)
-			pos = CFrame.new(pos.X, pos.Y, pos.Z)
-			player.Character.HumanoidRootPart.CFrame = pos
-		end)
-		tool.Parent = player.Backpack
-	end
-end)
-
-
-local HideGuiKey = HideGuiKey
-game:GetService("UserInputService").InputBegan:Connect(function(input, gameProcessed)
-	-- Überprüfe, ob das Spielereignis nicht bereits verarbeitet wurde
-	if not gameProcessed then
-		-- Überprüfe, ob der Text der HideGuiKey-TextBox der gedrückten Taste entspricht
-		if input.KeyCode.Name == HideGuiKey.Text then
-			-- Wenn das Frame unsichtbar ist, mache es sichtbar
-			if not Frame.Visible then
-				Frame.Visible = true
-			else
-				-- Wenn das Frame sichtbar ist, mache es unsichtbar
-				Frame.Visible = false
-			end
-		end
-	end
-end)
---HideGuiEnd--
-
-
---Walkspeed--
-local s_rs = game:GetService("RunService")
-local l_plr = game:GetService("Players").LocalPlayer
-
--- Find the player's humanoid and humanoid root part
-local l_humrp = l_plr.Character and l_plr.Character:FindFirstChild("HumanoidRootPart")
-local l_hum = l_plr.Character and l_plr.Character:FindFirstChild("Humanoid")
-
--- Connect to the CharacterAdded event to update the humanoid and humanoid root part
-local resp_con = l_plr.CharacterAdded:Connect(function(c)
-	l_humrp = c:WaitForChild("HumanoidRootPart", 3)
-	l_hum = c:WaitForChild("Humanoid", 3)
-end)
-
-
-
--- Set the initial speed amount
-local speed_amnt = tonumber(WalkspeedValue.Text)
-
--- Connect the walk speed buttons to update the speed amount
-WalkspeedTake.MouseButton1Click:Connect(function()
-	WalkspeedValue.Text = tonumber(WalkspeedValue.Text) - 1
-	speed_amnt = tonumber(WalkspeedValue.Text)
-end)
-
-WalkspeedAdd.MouseButton1Click:Connect(function()
-	WalkspeedValue.Text = tonumber(WalkspeedValue.Text) + 1
-	speed_amnt = tonumber(WalkspeedValue.Text)
-end)
-
--- Set up the on/off button
-local button = WalkspeedOnOff
-local isOn = false
-
-local function toggleButton()
-	isOn = not isOn
-	if isOn then
-		button.Text = "On"
-		button.BackgroundColor3 = Color3.new(0, 1, 0) -- green
-		-- do something when the button is turned on
-	else
-		button.Text = "Off"
-		button.BackgroundColor3 = Color3.new(1, 0, 0) -- red
-		-- do something when the button is turned off
-	end
-end
-
-button.MouseButton1Click:Connect(toggleButton)
-
--- Update the player's speed based on the speed amount
-l_hum.WalkSpeed = speed_amnt * 16 -- 16 is the default walk speed
-
--- Bind to the RenderStep event to update the player's position
-s_rs:BindToRenderStep("speed", 2000, function(dt)
-	if isOn then
-		l_humrp.CFrame += l_hum.MoveDirection * dt * 5 * speed_amnt
-	end
-end)
---WalkspeedEnd--
-
-
-
-
-
-
-
-
-
-local part1 = workspace:FindFirstChild("Part1")
-local part2 = workspace:FindFirstChild("Part2")
-local part3 = workspace:FindFirstChild("Part3")
-
-if not part1 then
-	part1 = Instance.new("Part")
-	part1.Name = 'Part1'
-	part1.Anchored = true
-	part1.Position = Vector3.new(-56899.2, 84.7494, -34.4561)
-	part1.Size = Vector3.new(9999, 66, 9999)
-	part1.Material = Enum.Material.Plastic  -- Set the part's material to Plastic
-	part1.Transparency = 1  -- Set the part's transparency to 0.8
-	part1.CanCollide = false -- Set the part's CanCollide property to false
-	part1.Parent = workspace
-end
-
-if not part2 then
-	part2 = Instance.new("Part")
-	part2.Name = 'Part2'
-	part2.Anchored = true
-	part2.Position = Vector3.new(360.5, 111.176, -17.2236)
-	part2.Size = Vector3.new(9999,.9,9999)
-	part2.Material = Enum.Material.Plastic  -- Set the part's material to Plastic
-	part2.Transparency = 1  -- Set the part's transparency to 0.8
-	part2.CanCollide = false -- Set the part's CanCollide property to false
-	part2.Parent = workspace
-end
-
-if not part3 then
-	part3 = Instance.new("Part")
-	part3.Name = 'Part3'
-	part3.Anchored = true
-	part3.Position = Vector3.new(-1114.94, -135.925, -38657.2)
-	part3.Size = Vector3.new(9999,.9,9999)
-	part3.Material = Enum.Material.Plastic  -- Set the part's material to Plastic
-	part3.Transparency = 1  -- Set the part's transparency to 0.8
-	part3.CanCollide = false -- Set the part's CanCollide property to false
-	part3.Parent = workspace
-end
-
-
-local player = game:GetService("Players").LocalPlayer
-
-player.CharacterAdded:Connect(function(character)
-	local humanoid = character:WaitForChild("Humanoid")
-
-	Tower1.MouseButton1Click:Connect(function()
-		player.Character:SetPrimaryPartCFrame(CFrame.new(Vector3.new(257.65, 174.476, 83.3762)))
-	end)
-
-	Tower2.MouseButton1Click:Connect(function()
-		player.Character:SetPrimaryPartCFrame(CFrame.new(Vector3.new(430.75, 157.676, -115.124)))
-	end)
-
-	Hill.MouseButton1Click:Connect(function()
-		player.Character:SetPrimaryPartCFrame(CFrame.new(Vector3.new(269.477, 146.329, -122.038)))
-	end)
-
-	Cubes.MouseButton1Click:Connect(function()
-		player.Character:SetPrimaryPartCFrame(CFrame.new(Vector3.new(115.789, 141.676, -27.0414)))
-	end)
-
-	Castle.MouseButton1Click:Connect(function()
-		player.Character:SetPrimaryPartCFrame(CFrame.new(Vector3.new(429.149, 117.676, -208.778)))
-	end)
-
-	Lealderboards.MouseButton1Click:Connect(function()
-		player.Character:SetPrimaryPartCFrame(CFrame.new(Vector3.new(558.35, 141.676, 5.47638)))
-	end)
-
-	Toilets.MouseButton1Click:Connect(function()
-		player.Character:SetPrimaryPartCFrame(CFrame.new(Vector3.new(450.25, 118.348, 66.3764)))
-	end)
-
-	Sign.MouseButton1Click:Connect(function()
-		player.Character:SetPrimaryPartCFrame(CFrame.new(Vector3.new(359.15, 273.053, 105.95)))
-	end)
-end)
-
-
-
-Button1.MouseButton1Click:Connect(function()
-	Frame1.Visible = true
-	Frame2.Visible = false
-	Frame3.Visible = false
-	Frame4.Visible = false
-end)
-
-Button2.MouseButton1Click:Connect(function()
-	Frame1.Visible = false
-	Frame2.Visible = true
-	Frame3.Visible = false
-	Frame4.Visible = false
-end)
-
-Button3.MouseButton1Click:Connect(function()
-	Frame1.Visible = false
-	Frame2.Visible = false
-	Frame3.Visible = true
-	Frame4.Visible = false
-end)
-
-Button4.MouseButton1Click:Connect(function()
-	Frame1.Visible = false
-	Frame2.Visible = false
-	Frame3.Visible = false
-	Frame4.Visible = true
-end)
-
-Close.MouseButton1Click:Connect(function()
-	ScreenGui:Destroy()
-end)
-
-
-
-local button = TpSafespaceOnOff
-local keyBox = TpSafespaceKey
-
-button.Text = "Off"
-button.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- red background color
-
-local teleportPosition = Vector3.new(257.65, 174.476, 83.3762)
-
-local isOn = false
-local function tiggleButton()
-	isOn = not isOn
-	if isOn then
-		button.Text = "On"
-		button.BackgroundColor3 = Color3.fromRGB(0, 255, 0) -- green background color
-	else
-		button.Text = "Off"
-		button.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- red background color
-	end
-end
-
-button.Activated:Connect(function()
-	tiggleButton()
-end)
-
-game:GetService("UserInputService").InputBegan:Connect(function(input, gameProcessedEvent)
-	if isOn and input.KeyCode == Enum.KeyCode[keyBox.Text] then
-		game.Players.LocalPlayer.Character:MoveTo(teleportPosition)
-	end
-end)
-
-
---Airdrop--
-local AirdropIsOn = false
-local part = nil
-
-local function teleportToAirdrop()
-	if not AirdropIsOn then
-		return
-	end
-
-	local character = game.Players.LocalPlayer.Character
-	if not character then return end -- ensure the player's character exists
-	if part and part.Parent then -- check if the part still exists and is in the workspace
-		local partPosition = part.Position + Vector3.new(0, 5, 0) -- add 5 to the Y coordinate
-		local lastPartPosition = partPosition
-		wait(1) -- wait for one second
-		partPosition = part.Position + Vector3.new(0, 5, 0) -- add 5 to the Y coordinate
-		if partPosition == lastPartPosition then -- check if the part has stopped moving
-			character:SetPrimaryPartCFrame(CFrame.new(partPosition))
-		end
-	else
-		part = workspace.Airdrops:FindFirstChild("Airdrop") and workspace.Airdrops.Airdrop:FindFirstChild("Meshes/Airdrop_Cube.001") -- find the new part
-	end
-end
-
-local function onChildAdded(child)
-	if child.Name == "Airdrop" then
-		part = workspace.Airdrops:FindFirstChild("Airdrop") and workspace.Airdrops.Airdrop:FindFirstChild("Meshes/Airdrop_Cube.001") -- update the part variable to point to the new part
-	end
-end
-
-workspace.Airdrops.ChildAdded:Connect(onChildAdded)
-
-local runService = game:GetService("RunService")
-runService.RenderStepped:Connect(function()
-	teleportToAirdrop()
-end)
-
-local function onCharacterAdded(character)
-	character:WaitForChild("Humanoid").Died:Connect(function()
-		if AirdropIsOn then
-			wait(5) -- wait 5 seconds before teleporting to the airdrop
-			teleportToAirdrop()
-		end
-	end)
-end
-
-game.Players.LocalPlayer.CharacterAdded:Connect(onCharacterAdded)
-if game.Players.LocalPlayer.Character then
-	onCharacterAdded(game.Players.LocalPlayer.Character)
-end
-
-local AirdropOnOff = AirdropOnOff
-AirdropOnOff.MouseButton1Click:Connect(function()
-	if AirdropIsOn then
-		AirdropIsOn = false
-		AirdropOnOff.Text = "Off"
-		AirdropOnOff.BackgroundColor3 = Color3.new(1, 0, 0)
-	else
-		AirdropIsOn = true
-		AirdropOnOff.Text = "On"
-		AirdropOnOff.BackgroundColor3 = Color3.new(0, 1, 0)
-	end
-end)
---AirdropEnd--
-
-
-
---AddPlatform--
-local platformButton = AddPlatformOnOff
-local part1 = game.Workspace.Part1
-local part2 = game.Workspace.Part2
-local part3 = game.Workspace.Part3
-
-local function togglePlatform()
-	if platformButton.Text == "Off" then
-		platformButton.Text = "On"
-		platformButton.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
-		part1.Transparency = 0.3
-		part2.Transparency = 0.3
-		part3.Transparency = 0.3
-		part1.CanCollide = true
-		part2.CanCollide = true
-		part3.CanCollide = true
-	else
-		platformButton.Text = "Off"
-		platformButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-		part1.Transparency = 1
-		part2.Transparency = 1
-		part3.Transparency = 1
-		part1.CanCollide = false
-		part2.CanCollide = false
-		part3.CanCollide = false
-	end
-end
-
-platformButton.MouseButton1Click:Connect(togglePlatform)
---AddPlatformEnd--
-
-
-
-
---Aimbot--
+local plrs = game["Players"]
+local rs = game["RunService"]
 local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-local Camera = workspace.CurrentCamera
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local UserInputService = game:GetService("UserInputService")
+local Lighting = game:GetService("Lighting")
+local Teams = game:GetService("Teams")
+local RunService = game:GetService("RunService")
+local TeleportService = game:GetService("TeleportService")
 
-local AimbotIsOn = false
-local AimbotOnOff = AimbotOnOff
-local KeyToLockOn = AimbotKey.Text -- Change this to the desired key code string
 
-local lockedOnPlayer = nil
+local LocalPlayer = Players.LocalPlayer
+local Mouse = LocalPlayer:GetMouse()
+local CurrentCamera = workspace.CurrentCamera
+local plr = plrs.LocalPlayer
+local mouse = plr:GetMouse()
+local camera = workspace.CurrentCamera
+local worldToViewportPoint = camera.worldToViewportPoint
+local cc = Instance.new("ColorCorrectionEffect", game.Lighting)
+local blur = Instance.new("BlurEffect", game.Lighting)
+local sun = Instance.new("SunRaysEffect", game.Lighting)
+blur.Size = 0
+sun.Intensity = 0
 
-local function getClosestPlayer()
-	local closestPlayer = nil
-	local closestAngle = math.huge
+--[Optimisation Variables]
 
-	for _, player in ipairs(Players:GetPlayers()) do
-		if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
-			local cameraLook = (Camera.Focus.p - Camera.CFrame.p).Unit
-			local playerLook = (player.Character.HumanoidRootPart.Position - Camera.CFrame.p).Unit
-			local angle = math.acos(cameraLook:Dot(playerLook))
-			if angle < closestAngle and player.Character.Humanoid.Health > 0 then
-				closestAngle = angle
-				closestPlayer = player
-			end
-		end
-	end
+local Drawingnew = Drawing.new
+local Color3fromRGB = Color3.fromRGB
+local Vector3new = Vector3.new
+local Vector2new = Vector2.new
+local mathfloor = math.floor
+local mathceil = math.ceil
 
-	return closestPlayer
+--[Setup Table]
+
+local esp = {
+    players = {},
+    enabled = true,
+    teamcheck = true,
+    fontsize = 16,
+    font = 0,
+    settings = {
+        name = {enabled = true, outline = true, color = Color3fromRGB(0, 0, 0), outlineColor = Color3fromRGB(255,255,255)},
+        box = {enabled = true, outline = true, color = Color3fromRGB(0, 0, 0), outlineColor = Color3fromRGB(255,255,255)},
+        healthbar = {enabled = false, outline = false, color = Color3fromRGB(0, 0, 0), outlineColor = Color3fromRGB(255,255,255)},
+        healthtext = {enabled = false, outline = false, color = Color3fromRGB(0, 0, 0), outlineColor = Color3fromRGB(255,255,255)},
+        distance = {enabled = true, outline = true, color = Color3fromRGB(0, 0, 0), outlineColor = Color3fromRGB(255,255,255)}
+    }
+}
+
+esp.NewDrawing = function(type, properties)
+    local newDrawing = Drawingnew(type)
+
+    for i,v in next, properties or {} do
+        newDrawing[i] = v
+    end
+
+    return newDrawing
 end
 
-local function updateCamera()
-	if AimbotIsOn and ((KeyToLockOn == "RightMouseButton" and UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)) or (KeyToLockOn ~= "RightMouseButton" and UserInputService:IsKeyDown(Enum.KeyCode[KeyToLockOn]))) and LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Tool") and LocalPlayer.Character:FindFirstChildOfClass("Tool").Name ~= "Tp-Tool" then
-		if not lockedOnPlayer then
-			local mousePos = UserInputService:GetMouseLocation()
-			local unitRay = Camera:ScreenPointToRay(mousePos.X, mousePos.Y)
-			local _, hit = workspace:FindPartOnRayWithIgnoreList(unitRay, {LocalPlayer.Character})
-
-			if hit then
-				local closestPlayer = getClosestPlayer()
-
-				if closestPlayer then
-					lockedOnPlayer = closestPlayer
-					Camera.CFrame = CFrame.new(Camera.CFrame.Position, lockedOnPlayer.Character.HumanoidRootPart.Position)
-				end
-			end
-		end
-	else
-		lockedOnPlayer = nil
-	end
-
-	if lockedOnPlayer then
-		Camera.CFrame = CFrame.new(Camera.CFrame.Position, lockedOnPlayer.Character.HumanoidRootPart.Position)
-	end
+esp.NewPlayer = function(v)
+    esp.players[v] = {
+        name = esp.NewDrawing("Text", {Color = Color3fromRGB(94, 0, 255), Outline = true, Center = true, Size = 13, Font = 0}),
+        boxOutline = esp.NewDrawing("Square", {Color = Color3fromRGB(0, 0, 0), Thickness = 3}),
+        box = esp.NewDrawing("Square", {Color = Color3fromRGB(108, 11, 204), Thickness = 1}),
+        healthBarOutline = esp.NewDrawing("Line", {Color = Color3fromRGB(0, 0, 0), Thickness = 3}),
+        healthBar = esp.NewDrawing("Line", {Color = Color3fromRGB(255, 255, 255), Thickness = 1}),
+        healthText = esp.NewDrawing("Text", {Color = Color3fromRGB(94, 0, 255), Outline = true, Center = true, Size = 13, Font = 0}),
+        distance = esp.NewDrawing("Text", {Color = Color3fromRGB(94, 0, 255), Outline = true, Center = true, Size = 13, Font = 0})
+    }
 end
 
--- Update KeyToLockOn when AimbotKey text changes
-AimbotKey:GetPropertyChangedSignal("Text"):Connect(function()
-	KeyToLockOn = AimbotKey.Text
-end)
-
-AimbotOnOff.MouseButton1Click:Connect(function()
-	AimbotIsOn = not AimbotIsOn
-	if AimbotIsOn then
-		AimbotOnOff.Text = "On"
-		AimbotOnOff.BackgroundColor3 = Color3.new(0, 1, 0)
-	else
-		AimbotOnOff.Text = "Off"
-		AimbotOnOff.BackgroundColor3 = Color3.new(1, 0, 0)
-	end
-end)
-
-game:GetService("RunService").RenderStepped:Connect(function()
-	updateCamera()
-end)
-
-
-local button = game.Players.LocalPlayer.PlayerGui.ScreenGui.Button
-local isOn = false
-
--- Define a function to toggle the button state
-local function togggleButton()
-	if isOn then
-		button.Text = "Off"
-		button.BackgroundColor3 = Color3.fromRGB(255, 0, 0) -- Red
-	else
-		button.Text = "On"
-		button.BackgroundColor3 = Color3.fromRGB(0, 255, 0) -- Green
-	end
-	isOn = not isOn
+for _,v in ipairs(plrs:GetPlayers()) do
+    esp.NewPlayer(v)
 end
-button.MouseButton1Click:Connect(togggleButton)
---AimbotEnd--
 
+plrs.PlayerAdded:Connect(function(v)
+    esp.NewPlayer(v)
+end)
 
+plrs.PlayerRemoving:Connect(function(v)
+    for i,v in pairs(esp.players[v]) do
+        v:Remove()
+    end
+    esp.players[v] = nil
+end)
 
+local mainLoop = rs.RenderStepped:Connect(function()
+    for i,v in pairs(esp.players) do
+        if i ~= plr and i.Character and i.Character:FindFirstChild("Humanoid") and i.Character:FindFirstChild("HumanoidRootPart") and i.Character:FindFirstChild("Head") then
+            local hum = i.Character.Humanoid
+            local hrp = i.Character.HumanoidRootPart
+            local head = i.Character.Head
 
+            local Vector, onScreen = camera:WorldToViewportPoint(i.Character.HumanoidRootPart.Position)
+    
+            local Size = (camera:WorldToViewportPoint(hrp.Position - Vector3new(0, 3, 0)).Y - camera:WorldToViewportPoint(hrp.Position + Vector3new(0, 2.6, 0)).Y) / 2
+            local BoxSize = Vector2new(mathfloor(Size * 1.5), mathfloor(Size * 1.9))
+            local BoxPos = Vector2new(mathfloor(Vector.X - Size * 1.5 / 2), mathfloor(Vector.Y - Size * 1.6 / 2))
+    
+            local BottomOffset = BoxSize.Y + BoxPos.Y + 1
+
+            if onScreen and esp.enabled then
+                if esp.settings.name.enabled then
+                    v.name.Position = Vector2new(BoxSize.X / 2 + BoxPos.X, BoxPos.Y - 16)
+                    v.name.Outline = esp.settings.name.outline
+                    v.name.Text = tostring(i)
+                    v.name.Color = esp.settings.name.color
+                    v.name.OutlineColor = esp.settings.name.outlineColor
+                    v.name.Font = esp.font
+                    v.name.Size = esp.fontsize
+
+                    v.name.Visible = true
+                else
+                    v.name.Visible = false
+                end
+
+                if esp.settings.distance.enabled and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
+                    v.distance.Position = Vector2new(BoxSize.X / 2 + BoxPos.X, BottomOffset)
+                    v.distance.Outline = esp.settings.distance.outline
+                    v.distance.Text = "[" .. mathfloor((hrp.Position - plr.Character.HumanoidRootPart.Position).Magnitude) .. "m]"
+                    v.distance.Color = esp.settings.distance.color
+                    v.distance.OutlineColor = esp.settings.distance.outlineColor
+                    BottomOffset = BottomOffset + 15
+
+                    v.distance.Font = esp.font
+                    v.distance.Size = esp.fontsize
+
+                    v.distance.Visible = true
+                else
+                    v.distance.Visible = false
+                end
+
+                if esp.settings.box.enabled then
+                    v.boxOutline.Size = BoxSize
+                    v.boxOutline.Position = BoxPos
+                    v.boxOutline.Visible = esp.settings.box.outline
+                    v.boxOutline.Color = esp.settings.box.outlineColor
+    
+                    v.box.Size = BoxSize
+                    v.box.Position = BoxPos
+                    v.box.Color = esp.settings.box.color
+                    v.box.Visible = true
+                else
+                    v.boxOutline.Visible = false
+                    v.box.Visible = false
+                end
+
+                if esp.settings.healthbar.enabled then
+                    v.healthBar.From = Vector2new((BoxPos.X - 5), BoxPos.Y + BoxSize.Y)
+                    v.healthBar.To = Vector2new(v.healthBar.From.X, v.healthBar.From.Y - (hum.Health / hum.MaxHealth) * BoxSize.Y)
+                    v.healthBar.Color = esp.settings.healthbar.color
+                    v.healthBar.Visible = true
+
+                    v.healthBarOutline.From = Vector2new(v.healthBar.From.X, BoxPos.Y + BoxSize.Y + 1)
+                    v.healthBarOutline.To = Vector2new(v.healthBar.From.X, (v.healthBar.From.Y - 1 * BoxSize.Y) -1)
+                    v.healthBarOutline.Color = esp.settings.healthbar.outlineColor
+                    v.healthBarOutline.Visible = esp.settings.healthbar.outline
+                else
+                    v.healthBarOutline.Visible = false
+                    v.healthBar.Visible = false
+                end
+
+                if esp.settings.healthtext.enabled then
+                    v.healthText.Text = tostring(mathfloor((hum.Health / hum.MaxHealth) * 100 + 0.5))
+                    v.healthText.Position = Vector2new((BoxPos.X - 20), (BoxPos.Y + BoxSize.Y - 1 * BoxSize.Y) -1)
+                    v.healthText.Color = esp.settings.healthtext.color
+                    v.healthText.OutlineColor = esp.settings.healthtext.outlineColor
+                    v.healthText.Outline = esp.settings.healthtext.outline
+
+                    v.healthText.Font = esp.font
+                    v.healthText.Size = esp.fontsize
+
+                    v.healthText.Visible = true
+                else
+                    v.healthText.Visible = false
+                end
+
+                if esp.teamcheck then
+                    if v.TeamColor ~= plr.TeamColor then
+                        v.name.Visible = esp.settings.name.enabled
+                        v.box.Visible = esp.settings.box.enabled
+                        v.healthBar.Visible = esp.settings.healthbar.enabled
+                        v.healthText.Visible = esp.settings.healthtext.enabled
+                        v.distance.Visible = esp.settings.distance.enabled
+                    else
+                        v.name.Visible = false
+                        v.boxOutline.Visible = false
+                        v.box.Visible = false
+                        v.healthBarOutline.Visible = false
+                        v.healthBar.Visible = false
+                        v.healthText.Visible = false
+                        v.distance.Visible = false
+                    end
+                end
+            else
+                v.name.Visible = false
+                v.boxOutline.Visible = false
+                v.box.Visible = false
+                v.healthBarOutline.Visible = false
+                v.healthBar.Visible = false
+                v.healthText.Visible = false
+                v.distance.Visible = false
+            end
+        else
+            v.name.Visible = false
+            v.boxOutline.Visible = false
+            v.box.Visible = false
+            v.healthBarOutline.Visible = false
+            v.healthBar.Visible = false
+            v.healthText.Visible = false
+            v.distance.Visible = false
+        end
+    end
+end)
+
+getgenv().esp = esp
